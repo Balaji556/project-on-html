@@ -1,0 +1,17 @@
+
+
+*{
+    background-color: black;
+}
+.user{
+    width: 250px;
+    background-color: antiquewhite;
+    padding: 250px 250px 250px 0px ;
+    margin: 10%;
+}
+.user1{
+    width:150px ;
+    background-color: brown;
+    padding: 300px;
+    margin:  15%;
+}
