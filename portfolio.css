@@ -1,6 +1,9 @@
 *{
     background-color: #888;
     color: #ffffff;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
 }
 .name{
     font-size: 1rem;
@@ -9,6 +12,15 @@
     filter: drop-shadow(2px 3px 3px yellow);
     color :yellow
 }
-.reddi{
+.banner{
+    background-image: url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeFYtLG_NLWAlFT3z_IgAqvNy7j1-Y54dz8W-2vWI5pLl6ehREXrnsKhycRwArYvCwmOwFEwSoTDarrRXAmmSp01KEsNZCW3SR4J.jpg?r=f6c&quot");
+    background-size: cover;
+    background-position: center center;
     max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}    
+.posters{
+    display: flex;
+    overflow: scroll;
 }
