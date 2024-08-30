@@ -2,19 +2,23 @@
     background-color: #333;
 }
 .parent{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: antiquewhite;
-    padding:1px ;
+    padding: 50px;
 }
 .child{
-    width:300px ;
-    height: 300px;
+    width:200px ;
+    height: 200px;
     background-color: brown;
-    margin: 100px;   
+    margin:90px 0px 0px 90px;
+    padding: 5px;
 }
 .child1{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-color: cadetblue;
-    padding:150px ;
+    margin: 40px 0px 0px 40px ;
+    padding: 5px;
 }
