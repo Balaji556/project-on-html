@@ -1,0 +1,39 @@
+.parent{
+    border-style: solid;
+  border-width: 5px;
+  border-color: rgb(250, 79, 11);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.child{
+    border-style: solid;
+  border-width: 5px;
+  border-color: rgb(22, 211, 37);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    position: absolute;
+}
+.child1{
+    border-style: solid;
+  border-width: 5px;
+    border-color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    height: 100px;
+    width: 100px; 
+    margin: 40px 0px 0px 40px;
+}
+.Rectangle{
+    border-style: solid;
+  border-width: 5px;
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+    
+}
