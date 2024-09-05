@@ -1,0 +1,121 @@
+*{
+    background-color: #999;
+}
+.parent{
+    border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.child1{
+    border-style: solid;
+  border-width: 5px;
+  width: 60px;
+  height: 90px;
+  margin-top: 80px;
+  margin-left: 5px;
+}
+.child2{
+    border-style: solid;
+  border-width: 5px;
+  width: 10px;
+  height: 100px;
+  margin-left: 4px;
+}
+.child3{
+    border-style: solid;
+  border-width: 5px;
+  width: 10px;
+  height:100px ;
+  margin-top: -110px;
+  margin-left: 54px;
+}
+.child4{
+    border-style: solid;
+  border-width: 5px;
+  width: 20px;
+  height: 10px;
+}
+.child5{
+    border-style: solid;
+  border-width: 5px;
+  width: 20px;
+  height: 10px;
+  margin-left:50px ;
+  margin-top:-20px ;
+}
+.hand1{
+    border-style: solid;
+    border-width: 5px;
+    width: 60px;
+    height: 20px;
+    margin-left: -70px;
+}
+.hand2{
+    border-style: solid;
+    border-width: 5px;
+    width: 60px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.circle1{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+.circle2{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: -5px;
+}
+.dot1{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width:2px ;
+    height: 2px;
+    margin-top: -290px;
+    position: absolute;
+    margin-left: 15px;
+}
+.dot2{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width:2px ;
+    height: 2px;
+    margin-top: -290px;
+    position: absolute;
+    margin-left: 50px;
+}
+.dot3{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width:2px ;
+    height: 2px;
+    margin-top: -270px;
+    margin-left: 33px;
+}
+.mouth{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    width: 15px;
+    height: 2px;
+    margin-top: 3px;
+    margin-left: 26px;
+}
