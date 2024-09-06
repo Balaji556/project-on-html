@@ -1,0 +1,61 @@
+.face{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+}
+.eye1{
+    border-style: solid;
+    border-width: 5px;
+    width: 10px;
+    height: 15px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.eye2{
+    border-style: solid;
+    border-width: 5px;
+    width: 10px;
+    height: 15px;
+    border-radius: 50px;
+    margin-top: -25px;
+    margin-left: 120px;
+}
+.nose{
+    border-style: solid;
+    border-width: 5px;
+    width: 15px;
+    height: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+.mouth{
+    border-style: solid;
+    border-width: 5px;
+    width: 40px;
+    height: 10px;
+    border-radius: 50px;
+    margin-top:10px;
+    margin-left: 72px;
+}
+.dot1{
+    border-style: solid;
+    border-width: 5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50px;
+}
+.dot2{
+    border-style: solid;
+    border-width: 5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50px;
+}
