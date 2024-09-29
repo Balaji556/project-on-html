@@ -9,7 +9,7 @@ nav .logo img{
 nav{
     display: flex;
     justify-content: space-between;
-    max-height: 5%;
+    max-height: 60px;
 }
 nav .action{
     padding-top: 5px;
@@ -41,7 +41,8 @@ nav .action .login{
 }
 nav .action .signup:hover{
     background-color: forestgreen;
-    color: aliceblue;
+    color: black;
+    cursor: pointer;
 }
 nav .action .user{
     margin: 0 200px 6px 0;
@@ -60,12 +61,24 @@ nav .action .user{
     width: 330px;
     color: white;
     background-color: rgb(44, 42, 42);
+    font-weight: 400;
+    font-size: medium;
+
 }
-svg{
-    width: 100px;
-    height: 100px;
-    margin-top: -20px;
-    margin-right: 10px;
+.cls svg {
+    width: 40px;
+    height: 40px;
+    margin: -10px 0 0 0 ;
+    
+}
+.cls button{
+    width: 80px;
+    height: 40px;
+    margin: -15px 0 0 0 ;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
 }
 .action .user svg{
     width: 20px;
@@ -199,6 +212,7 @@ svg{
     height: 200px;
     background-color: black;
     margin-top: 30px;
+    
 }
 .cd .r2 button{
 margin-left: 50px;
@@ -1086,62 +1100,109 @@ margin-left: 50px;
     margin-left: 170px;
     border-radius: 3px;
 }
-.row14 {
-    margin-top: 30px;
-    display: flex;
-    gap: 30px;
+.end {
+    width: 1400px;
+    height: 300px;
+    margin-top: 40px;
     background-color: black;
     margin-left: 20px;
-}
-.row14 .c1{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(64, 89, 110);
-    border-radius: 10px;
-
-}
-.row14 .c2{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(88, 196, 169);
-    border-radius: 10px;
-
-}
-.row14 .c3{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(216, 95, 151);
-    border-radius: 10px;
-
-}
-.row15 {
-    margin-top: 30px;
     display: flex;
-    gap: 30px;
+    gap: 10px;
+}
+.end h3{
     background-color: black;
-    margin-left: 20px;
+    color: #a3a3a3;
 }
-.row15 .c1{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(69, 90, 19);
-    border-radius: 10px;
+hr{
+    width: 1400;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #a3a3a3;
+}
+.end h2{
+    color: #a3a3a3;
+    background-color: black;
+}
+.end button{
+    border: none;
+    color: #a3a3a3;
+    background-color: black;
+    cursor: pointer;
+}
 
+.end .c1{
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    
+    border-radius: 20px;
+    margin: 30px 0 0 50px;
+    padding: 20px;
 }
-.row15 .c2{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(67, 22, 73);
-    border-radius: 10px;
+.end .c2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    
+    border-radius: 20px;
+    margin: 60px 0 0 50px;
+    padding: 20px;
+}
+.end .c3{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    
+    border-radius: 20px;
+    margin: 60px 0 0 50px;
+    padding: 20px;
+}
+.end .c4{
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    
+    border-radius: 20px;
+    margin: 60px 0 0 50px;
+    padding: 20px;
+}
+.c5{
+    background-color: black;
+    margin-bottom: 130px;
+}
+.c5 h3{
+    color: #a3a3a3;
+    margin-top: 30px;
+    background-color:black;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+footer {
+    background-image:linear-gradient(90deg, #af2896, #509bf5);; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+    position: fixed; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 30px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 6px;
+}
 
+footer p { 
+    font-size: 14px;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    color: white; 
 }
-.row15 .c3{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(48, 171, 202);
-    border-radius: 10px;
 
-}
+
+
 
 
 
