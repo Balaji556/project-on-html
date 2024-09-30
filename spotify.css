@@ -264,6 +264,12 @@ margin-left: 50px;
     border-radius: 10px;
 
 }
+.card2 .row .c1 audio{
+    width: 150px;
+    height: 20px;
+    background-color: deeppink;
+    margin: 0 0 0 20px;
+}
 .row .c1 h1{
     color: white;
     background-color: deeppink;
@@ -330,6 +336,7 @@ margin-left: 50px;
     width: 100px;
     height: 100px;
     margin-left: 170px;
+   
 }
 .row1 .c2{
     width: 300px;
@@ -364,6 +371,12 @@ margin-left: 50px;
     width: 100px;
     height: 100px;
     margin-left: 170px;
+}
+.card2 .row1 .c3 audio{
+    width: 150px;
+    height: 20px;
+    background-color: deeppink;
+    margin: 0 0 0 20px;
 }
 .row2 {
     margin-top: 30px;
@@ -407,6 +420,12 @@ margin-left: 50px;
     margin-left: 170px;
     border-radius: 3px;
 }
+.card2 .row2 .c2 audio{
+    width: 150px;
+    height: 20px;
+    background-color: deeppink;
+    margin: 0 0 0 20px;
+}
 .row2 .c3{
     width: 300px;
     height: 200px;
@@ -423,6 +442,12 @@ margin-left: 50px;
     height: 100px;
     margin-left: 170px;
     border-radius: 3px;
+}
+.card2 .row2 .c3 audio{
+    width: 150px;
+    height: 20px;
+    background-color: aquamarine;
+    margin: 0 0 0 20px;
 }
 .row3 {
     margin-top: 30px;
