@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    position: relative;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.heart{
+    width: 80px;
+    height: 80px;
+    background-color:red;
+    justify-content: center;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 20px 90px black;
+    animation: b 2s linear infinite;
+    left: 40%;
+    top: 40%;
+    z-index: 1;
+
+}
+.heart::before{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    top: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+
+}
+.heart::after{
+    width: 80px;
+    height: 80px;
+    background-color:red;
+    right: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+
+}
+@keyframes b{
+    0%{
+        transform: rotate(-45deg) scale(1.09);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.02);
+    }
+}
+
+.circle{
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid aqua;
+    animation: a 5s linear infinite;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+
+
+@keyframes a{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360);
+        background-color: cadetblue;
+        border: 3px solid orangered;
+        transition: 2s;
+    }
+  
+}
+.square{
+    height: 500px;
+    width: 500px;
+    background-color: transparent;
+    border: 3px solid aqua;
+    animation: a 5s linear infinite;
+    align-items: center;
+    z-index: 1;
+    animation: j 5s infinite;
+}
+@keyframes j{
+    0%{
+        background-color: cadetblue;
+        border: 3px solid orangered;
+        transition: 2s;
+    }
+}
+@media (max-width:768px) {
+    .circle {
+        height: 300px;
+        width: 300px;
+        .heart {
+            width: 80px;
+            height: 80px;
+            left: 36%;
+            top: 38%;
+           
+        }
+    }
+}
