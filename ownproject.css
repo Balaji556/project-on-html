@@ -1,0 +1,55 @@
+*{
+    background-color: #666;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-width: 100%;
+    height: 50px;
+    margin: 0 0px 0 0;
+    padding: 0 15px;
+    background-color: aliceblue;
+}
+nav .user {
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 7px 0 0 800px;
+    color: black;
+    
+}
+nav .user a{
+    color: rgb(12, 12, 12);
+    background-color: aliceblue;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+nav .signup{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+    margin: 0 0 0 20px;
+    color: white;
+    font-size: 17px;
+}
+nav .login{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #a3a3a3;
+    border: none;
+    margin: 0 0 0 40px;
+    font-size: 17px;
+}
+nav .login:hover{
+    background-color: #666;
+    border: 1px solid white;
+    cursor: pointer;
+}
+nav .signup:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
