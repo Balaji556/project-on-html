@@ -1,0 +1,1246 @@
+*{
+    background-color: #a3a3a3;
+}
+nav .logo img{
+    width: 50px;
+    height: 50px;
+}
+nav .logo{
+    display: flex;
+}
+nav .logo h2{
+    color: color-mix(in srgb-linear,rgb(10, 145, 235) 100%, black 100%);
+    background-color: #a3a3a3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-height: 60px;
+}
+nav .action{
+    padding-top: 5px;
+    display: flex;
+}
+nav .action button{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+nav .action .login{
+    margin-left: 30px;
+    
+}
+nav .action .signup{
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: black;
+}
+nav .action .login{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    
+}
+nav .action .signup:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+nav .action .user{
+    margin: 0 200px 6px 0;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.user{
+    display: flex;
+    text-align: center;
+}
+.user .search{
+    margin-left: -8px;
+    border: none;
+    width: 330px;
+    color: black;
+    background-color:#a3a3a3;
+    font-weight: 400;
+    font-size: medium;
+
+}
+.cls svg {
+    width: 30px;
+    height: 30px;
+    margin: 0px 0 0 30px ;
+    
+}
+.cls button{
+    width: 80px;
+    height: 40px;
+    margin: 20px 0 0 180px ;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.action .user svg{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    position: relative;
+}
+.top{
+    margin-top: 60px;
+    background-color: black;
+}
+.top h1{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+.cards .card1{
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+}
+.card1 h1{
+    color: #a3a3a3;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.plus{
+    background-color: black;
+}
+.c1 h2 {
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;;
+    color: white;
+    margin: 50px 0 0 5px;
+    font-weight: 300;
+}
+.c1 h4{
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;;
+    color: white;
+    margin-left: 5px;
+}
+.c2 h3{
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;;
+    color: white;
+    margin-left: 5px;
+}
+.c2 h4{
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;;
+    color: white;
+    margin-left: 5px;
+}
+.create{
+    width: 140px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.create1{
+    width: 140px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.r2 .cd .create2{
+    width: 140px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    margin-left: 5px;
+    color: black;
+    
+}
+.card1 .plus h1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 250px;
+    background-color: black;
+    margin-top: -50px;
+    padding: 5px 0 0 0;
+    cursor: pointer;
+}
+.cards .card1  .r1{
+    width: 300px;
+    height: 130px;
+    background-color:black;
+    border-radius: 10px;
+    overflow: scroll;
+    margin-top: -20px;
+    margin-top: 10px;
+   
+}
+.r1::-webkit-scrollbar {
+    display: none;
+  }
+  
+.card1 .r1 .c1{
+    width: 290px;
+    height: 130px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -20px;
+   
+}
+.card1 .r1 .c2{
+    width: 290px;
+    height: 130px;
+    background-color:rgb(12, 12, 12);
+    border-radius: 10px; ;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cd{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    margin-top: 30px;
+    
+}
+.cd .r2 button{
+margin-left: 50px;
+}
+.card1 .cd button{
+    background-color: black;
+    color: #a3a3a3;
+    border: none;
+    cursor: pointer;
+}
+.card1 .cd button h5{
+    background-color: black;
+}
+.card1 .cd button h5 u b{
+    background-color: black;
+    margin-top: -10px;
+}
+.cards .card2{
+    width: 1050px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.card2::-webkit-scrollbar {
+    display: none;
+  }
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.row {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+    
+}
+.row .c1{
+    width: 300px;
+    height: 200px;
+    background-color: deeppink;
+    border-radius: 10px;
+
+}
+.card2 .row .c1 audio{
+    width: 150px;
+    height: 20px;
+    background-color: deeppink;
+    margin: 0 0 0 20px;
+}
+.row .c1 h1{
+    color: white;
+    background-color: deeppink;
+    margin-left: 10px;
+}
+.row .c1 img{
+    
+    margin-left: 170px;
+}
+.row .c2{
+    width: 300px;
+    height: 200px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+
+}
+.row .c2 h1{
+    color: white;
+    background-color: lightseagreen;
+    margin-left: 10px;
+}
+.row .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+}
+.card2 .row .c2 audio{
+    width: 150px;
+    height: 20px;
+    background-color: lightseagreen;
+    margin: 0 0 0 20px;
+}
+.row .c3{
+    width: 300px;
+    height: 200px;
+    background-color:blueviolet ;
+    border-radius: 10px;
+
+}
+.row .c3 h1{
+    color: white;
+    background-color: blueviolet;
+    margin-left: 10px;
+}
+.row .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+}
+.row1 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row1 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: darkmagenta;
+    border-radius: 10px;
+
+}
+.row1 .c1 h1{
+    color: white;
+    background-color: darkmagenta;
+    margin-left: 10px;
+}
+.row1 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+   
+}
+.row1 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+
+}
+.row1 .c2 h1{
+    color: white;
+    background-color: cornflowerblue;
+    margin-left: 10px;
+}
+.row1 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+}
+.row1 .c3{
+    width: 300px;
+    height: 200px;
+    background-color:deeppink ;
+    border-radius: 10px;
+
+}
+.row1 .c3 h1{
+    color: white;
+    background-color: deeppink;
+    margin-left: 10px;
+}
+.row1 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+}
+.card2 .row1 .c3 audio{
+    width: 150px;
+    height: 20px;
+    background-color: deeppink;
+    margin: 0 0 0 20px;
+}
+.row2 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row2 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(112, 188, 218);
+    border-radius: 10px;
+
+}
+.row2 .c1 h1{
+    color: white;
+    background-color:rgb(112, 188, 218) ;
+    margin-left: 10px;
+}
+.row2 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+}
+.row2 .c2{
+    width: 300px;
+    height: 200px;
+    background-color:deeppink;
+    border-radius: 10px;
+
+}
+.row2 .c2 h1{
+    color: white;
+    background-color:deeppink ;
+    margin-left: 10px;
+}
+.row2 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.card2 .row2 .c2 audio{
+    width: 150px;
+    height: 20px;
+    background-color: deeppink;
+    margin: 0 0 0 20px;
+}
+.row2 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.row2 .c3 h1{
+    color: white;
+    background-color:aquamarine ;
+    margin-left: 10px;
+}
+.row2 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.card2 .row2 .c3 audio{
+    width: 150px;
+    height: 20px;
+    background-color: aquamarine;
+    margin: 0 0 0 20px;
+}
+.row3 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row3 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(20, 97, 165);
+    border-radius: 10px;
+
+}
+.row3 .c1 h1{
+    color: white;
+    background-color:rgb(20, 97, 165) ;
+    margin-left: 10px;
+}
+.row3 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row3 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(187, 170, 19);
+    border-radius: 10px;
+
+}
+.row3 .c2 h1{
+    color: white;
+    background-color:rgb(187, 170, 19);
+    margin-left: 10px;
+}
+.row3 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+    margin-top: -25px;
+}
+.row3 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(90, 9, 110);
+    border-radius: 10px;
+
+}
+.row3 .c3 h1{
+    color: white;
+    background-color:rgb(90, 9, 110) ;
+    margin-left: 10px;
+}
+.row3 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row4 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row4 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(88, 167, 236);
+    border-radius: 10px;
+
+}
+.row4 .c1 h1{
+    color: white;
+    background-color:rgb(88, 167, 236) ;
+    margin-left: 10px;
+}
+.row4 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+    margin-top: -25px;
+}
+.row4 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(40, 6, 230);
+    border-radius: 10px;
+
+}
+.row4 .c2 h1{
+    color: white;
+    background-color:rgb(40, 6, 230) ;
+    margin-left: 10px;
+}
+.row4 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row4 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(196, 32, 86);
+    border-radius: 10px;
+
+}
+.row4 .c3 h1{
+    color: white;
+    background-color:rgb(196, 32, 86) ;
+    margin-left: 10px;
+}
+.row4 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row5 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row5 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(10, 192, 216);
+    border-radius: 10px;
+
+}
+.row5 .c1 h1{
+    color: white;
+    background-color:rgb(10, 192, 216) ;
+    margin-left: 10px;
+}
+.row5 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row5 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(224, 8, 37);
+    border-radius: 10px;
+
+}
+.row5 .c2 h1{
+    color: white;
+    background-color:rgb(224, 8, 37);
+    margin-left: 10px;
+}
+.row5 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row5 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(231, 106, 22);
+    border-radius: 10px;
+
+}
+.row5 .c3 h1{
+    color: white;
+    background-color:rgb(231, 106, 22);
+    margin-left: 10px;
+}
+.row5 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row6 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row6 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(155, 17, 160);
+    border-radius: 10px;
+
+}
+.row6 .c1 h1{
+    color: white;
+    background-color:rgb(155, 17, 160);
+    margin-left: 10px;
+}
+.row6 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row6 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(65, 181, 185);
+    border-radius: 10px;
+
+}
+.row6 .c2 h1{
+    color: white;
+    background-color:rgb(65, 181, 185);
+    margin-left: 10px;
+}
+.row6 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row6 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(7, 133, 243);
+    border-radius: 10px;
+
+}
+.row6 .c3 h1{
+    color: white;
+    background-color:rgb(7, 133, 243);
+    margin-left: 10px;
+}
+.row6 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row7 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row7 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(63, 107, 121);
+    border-radius: 10px;
+
+}
+.row7 .c1 h1{
+    color: white;
+    background-color:rgb(63, 107, 121);
+    margin-left: 10px;
+}
+.row7 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row7 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(88, 64, 153);
+    border-radius: 10px;
+
+}
+.row7 .c2 h1{
+    color: white;
+    background-color:rgb(88, 64, 153);
+    margin-left: 10px;
+}
+.row7 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row7 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(25, 156, 102);
+    border-radius: 10px;
+
+}
+.row7 .c3 h1{
+    color: white;
+    background-color:rgb(25, 156, 102);
+    margin-left: 10px;
+}
+.row7 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row8 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row8 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(146, 131, 47);
+    border-radius: 10px;
+
+}
+.row8 .c1 h1{
+    color: white;
+    background-color:rgb(146, 131, 47);
+    margin-left: 10px;
+}
+.row8 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row8 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(250, 6, 156);
+    border-radius: 10px;
+
+}
+.row8 .c2 h1{
+    color: white;
+    background-color:rgb(250, 6, 156);
+    margin-left: 10px;
+}
+.row8 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row8 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(53, 216, 228);
+    border-radius: 10px;
+
+}
+.row8 .c3 h1{
+    color: white;
+    background-color:rgb(53, 216, 228);
+    margin-left: 10px;
+}
+.row8 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row9 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row9 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(147, 194, 235);
+    border-radius: 10px;
+
+}
+.row9 .c1 h1{
+    color: white;
+    background-color:rgb(147, 194, 235);
+    margin-left: 10px;
+}
+.row9 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row9 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(112, 231, 182);
+    border-radius: 10px;
+
+}
+.row9 .c2 h1{
+    color: white;
+    background-color:rgb(112, 231, 182);
+    margin-left: 10px;
+}
+.row9 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row9 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(228, 164, 219);
+    border-radius: 10px;
+
+}
+.row9 .c3 h1{
+    color: white;
+    background-color:rgb(228, 164, 219);
+    margin-left: 10px;
+}
+.row9 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row10 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row10 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(184, 240, 235);
+    border-radius: 10px;
+}
+.row10 .c1 h1{
+    color: white;
+    background-color:rgb(184, 240, 235);
+    margin-left: 10px;
+}
+.row10 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+
+.row10 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(71, 14, 67);
+    border-radius: 10px;
+
+}
+.row10 .c2 h1{
+    color: white;
+    background-color:rgb(71, 14, 67);
+    margin-left: 10px;
+}
+.row10 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row10 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(7, 135, 248);
+    border-radius: 10px;
+
+}
+.row10 .c3 h1{
+    color: white;
+    background-color:rgb(7, 135, 248);
+    margin-left: 10px;
+}
+.row10 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row11 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row11 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(141, 11, 43);
+    border-radius: 10px;
+
+}
+.row11 .c1 h1{
+    color: white;
+    background-color:rgb(141, 11, 43);
+    margin-left: 10px;
+}
+.row11 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row11 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(194, 82, 209);
+    border-radius: 10px;
+
+}
+.row11 .c2 h1{
+    color: white;
+    background-color:rgb(194, 82, 209);
+    margin-left: 10px;
+}
+.row11 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+
+.row11 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(66, 165, 204);
+    border-radius: 10px;
+
+}
+.row11 .c3 h1{
+    color: white;
+    background-color:rgb(66, 165, 204);
+    margin-left: 10px;
+}
+.row11 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+
+.row12 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row12 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(117, 167, 211);
+    border-radius: 10px;
+
+}
+.row12 .c1 h1{
+    color: white;
+    background-color:rgb(117, 167, 211);
+    margin-left: 10px;
+}
+.row12 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row12 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(180, 58, 144);
+    border-radius: 10px;
+
+}
+.row12 .c2 h1{
+    color: white;
+    background-color:rgb(180, 58, 144);
+    margin-left: 10px;
+}
+.row12 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row12 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(29, 159, 192);
+    border-radius: 10px;
+
+}
+.row12 .c3 h1{
+    color: white;
+    background-color:rgb(29, 159, 192);
+    margin-left: 10px;
+}
+.row12 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+
+.row13 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    margin-left: 20px;
+}
+.row13 .c1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(214, 68, 214);
+    border-radius: 10px;
+
+}
+.row13 .c1 h1{
+    color: white;
+    background-color:rgb(214, 68, 214);
+    margin-left: 10px;
+}
+.row13 .c1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row13 .c2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(135, 142, 202);
+    border-radius: 10px;
+
+}
+.row13 .c2 h1{
+    color: white;
+    background-color:rgb(135, 142, 202);
+    margin-left: 10px;
+}
+.row13 .c2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.row13 .c3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(189, 184, 111);
+    border-radius: 10px;
+
+}
+.row13 .c3 h1{
+    color: white;
+    background-color:rgb(189, 184, 111);
+    margin-left: 10px;
+}
+.row13 .c3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    border-radius: 3px;
+}
+.end {
+    width: 1400px;
+    height: 300px;
+    margin-top: 40px;
+    background-color: black;
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+.end h3{
+    background-color: black;
+    color: #a3a3a3;
+}
+hr{
+    width: 1400;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #a3a3a3;
+}
+.end h2{
+    color: #a3a3a3;
+    background-color: black;
+}
+.end button{
+    border: none;
+    color: #a3a3a3;
+    background-color: black;
+    cursor: pointer;
+}
+
+.end .c1{
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    
+    border-radius: 20px;
+    margin: 30px 0 0 50px;
+    padding: 20px;
+}
+.end .c2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    
+    border-radius: 20px;
+    margin: 60px 0 0 50px;
+    padding: 20px;
+}
+.end .c3{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    
+    border-radius: 20px;
+    margin: 60px 0 0 50px;
+    padding: 20px;
+}
+.end .c4{
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    
+    border-radius: 20px;
+    margin: 60px 0 0 50px;
+    padding: 20px;
+}
+.c5{
+    background-color: black;
+    margin-bottom: 130px;
+}
+.c5 h3{
+    color: #a3a3a3;
+    margin-top: 30px;
+    background-color:black;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+footer {
+    background-image:linear-gradient(90deg, #af2896, #509bf5);; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+    position: fixed; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 30px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 6px;
+}
+
+footer p { 
+    font-size: 14px;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    color: white; 
+}
+
+
+
+
+
+
