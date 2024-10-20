@@ -1,0 +1,110 @@
+*{
+    background-color: black;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: ;
+    padding: 60px;
+    background-color: black;
+    border-radius: 10px;
+    background-position: center;
+    background: rgba(0,0,0.8) transparent;
+    transform: translate(-50%,-50%);
+    
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper{
+    color: white;
+}
+.a1{
+    background-color: black;
+}
+.a2{
+    background-color: black;
+}
+.a3{
+    background-color: black;
+}
+.a1 input{
+    width: 340px;
+    height: 35px;
+    background-color: black;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+.a1 label{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.a1 button u{
+    background-color: black;
+    margin-top: 50px;
+    color: green;
+
+}
+button{
+    background-color: black;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.a2 input{
+    width: 250px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    
+}
+.a2 h4{
+    text-align: center;
+    background-color: black;
+}
+.a3 input{
+    width: 300px;
+    height: 40px;
+    margin-left: 28px;
+    margin-top: 10px;
+    border-radius:20px ;
+    border: 2px solid white;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+
+}
+.a3 hr{
+    color: #a3a3a3;
+    margin-top: 20px;
+}
+.a3 u{
+    cursor: pointer;
+    background-color: black;
+}
+.a3 h4{
+    text-align: center;
+    background-color: black;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.a3 h6{
+    text-align: center;
+    background-color: black;
+    color: #a3a3a3;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
