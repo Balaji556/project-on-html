@@ -1,5 +1,5 @@
 *{
-    background-color: #a3a3a3;
+    background-color: #222;
 }
 nav .logo img{
     width: 50px;
@@ -10,7 +10,7 @@ nav .logo{
 }
 nav .logo h2{
     color: color-mix(in srgb-linear,rgb(10, 145, 235) 100%, black 100%);
-    background-color: #a3a3a3;
+    background-color: #222;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav{
@@ -32,11 +32,16 @@ nav .action .login{
     margin-left: 30px;
     
 }
+nav .action .login:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
 nav .action .signup{
     cursor: pointer;
     border: none;
     font-size: 18px;
-    color: black;
+    color: white;
 }
 nav .action .login{
     background-color: white;
@@ -48,7 +53,7 @@ nav .action .login{
 }
 nav .action .signup:hover{
     background-color: red;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 nav .action .user{
@@ -66,8 +71,8 @@ nav .action .user{
     margin-left: -8px;
     border: none;
     width: 330px;
-    color: black;
-    background-color:#a3a3a3;
+    color: white;
+    background-color:#222;
     font-weight: 400;
     font-size: medium;
 
@@ -271,6 +276,9 @@ margin-left: 50px;
     border-radius: 10px;
 
 }
+.row .c1 a{
+    background-color: deeppink;
+}
 .card2 .row .c1 audio{
     width: 150px;
     height: 20px;
@@ -292,6 +300,9 @@ margin-left: 50px;
     background-color: lightseagreen;
     border-radius: 10px;
 
+}
+.row .c2 a{
+    background-color: lightseagreen;
 }
 .row .c2 h1{
     color: white;
@@ -315,6 +326,9 @@ margin-left: 50px;
     background-color:blueviolet ;
     border-radius: 10px;
 
+}
+.row .c3 a{
+    background-color:blueviolet ;
 }
 .row .c3 h1{
     color: white;
@@ -340,6 +354,9 @@ margin-left: 50px;
     border-radius: 10px;
 
 }
+.row1 .c1 a{
+    background-color: darkmagenta;
+}
 .row1 .c1 h1{
     color: white;
     background-color: darkmagenta;
@@ -358,6 +375,9 @@ margin-left: 50px;
     border-radius: 10px;
 
 }
+.row1 .c2 a{
+    background-color: cornflowerblue;
+}
 .row1 .c2 h1{
     color: white;
     background-color: cornflowerblue;
@@ -374,6 +394,9 @@ margin-left: 50px;
     background-color:deeppink ;
     border-radius: 10px;
 
+}
+.row1 .c3 a{
+    background-color:deeppink ;
 }
 .row1 .c3 h1{
     color: white;
